@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tommaso Soncin</title>
+    <link>https://t00m-s.github.io/</link>
+    <description>Recent content on Tommaso Soncin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Jan 2024 22:24:05 +0100</lastBuildDate>
+    <atom:link href="https://t00m-s.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First post</title>
+      <link>https://t00m-s.github.io/posts/first_post/</link>
+      <pubDate>Fri, 12 Jan 2024 22:24:05 +0100</pubDate>
+      <guid>https://t00m-s.github.io/posts/first_post/</guid>
+      <description>Introduction Welcome to my first attempt at writing a page with hugo!
+I found a nice tutorial and I also wanted a personal web page / blog so&amp;hellip; here we are. If you actually found my website it either means two things:
+You saw my CV because I sent it to your company, were curious and found this mess of a site.
+Congratulations, here&amp;rsquo;s a virtual cookie for you.
+You know me personally&amp;hellip; hello!</description>
+    </item>
+  </channel>
+</rss>
