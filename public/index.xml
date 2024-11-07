@@ -2,25 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tommaso Soncin</title>
-    <link>https://t00m-s.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Tommaso Soncin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://t00m-s.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Report of ISITDTU CTF</title>
-      <link>https://t00m-s.github.io/posts/second_post/</link>
+      <link>http://localhost:1313/posts/second_post/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://t00m-s.github.io/posts/second_post/</guid>
+      <guid>http://localhost:1313/posts/second_post/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;This is my personal report of what I did at the ISITDTU CTF, spoiler alert: not so much :(&lt;/p&gt;</description>
+&lt;p&gt;This is my personal report of what I did at the ISITDTU CTF with team bhackari, spoiler alert: not so much :(&lt;/p&gt;
+&lt;p&gt;Anyway, I initially wanted to practice pwn/rev (mainly rev) because I actually like reverse engineering and was thinking about finding a job as a red team operator.
+As a premise, I literally slept three hours the night before so&amp;hellip; things were going to be a bit spicy.
+I arrived at the university late for personal reasons, but once I got there I discovered a harsh truth:&lt;/p&gt;</description>
     </item>
     <item>
       <title>First post</title>
-      <link>https://t00m-s.github.io/posts/first_post/</link>
+      <link>http://localhost:1313/posts/first_post/</link>
       <pubDate>Fri, 12 Jan 2024 22:24:05 +0100</pubDate>
-      <guid>https://t00m-s.github.io/posts/first_post/</guid>
+      <guid>http://localhost:1313/posts/first_post/</guid>
       <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;Welcome to my first attempt at writing a page with &lt;em&gt;hugo&lt;/em&gt;!&lt;br&gt;
 I found a nice tutorial and I also wanted a personal web space so&amp;hellip; here we are.&lt;/p&gt;
