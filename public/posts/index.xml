@@ -4,20 +4,23 @@
     <title>Posts on Tommaso Soncin</title>
     <link>https://t00m-s.github.io/posts/</link>
     <description>Recent content in Posts on Tommaso Soncin</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jan 2024 22:24:05 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2024 19:18:29 +0100</lastBuildDate>
     <atom:link href="https://t00m-s.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Report of ISITDTU CTF</title>
+      <link>https://t00m-s.github.io/posts/second_post/</link>
+      <pubDate>Thu, 07 Nov 2024 19:18:29 +0100</pubDate>
+      <guid>https://t00m-s.github.io/posts/second_post/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is my personal report of what I did at the ISITDTU CTF, spoiler alert: not so much :(&lt;/p&gt;</description>
+    </item>
     <item>
       <title>First post</title>
       <link>https://t00m-s.github.io/posts/first_post/</link>
       <pubDate>Fri, 12 Jan 2024 22:24:05 +0100</pubDate>
       <guid>https://t00m-s.github.io/posts/first_post/</guid>
-      <description>Introduction Welcome to my first attempt at writing a page with hugo!
-I found a nice tutorial and I also wanted a personal web page / blog so&amp;hellip; here we are. If you actually found my website it either means two things:
-You saw my CV because I sent it to your company, were curious and found this mess of a site.
-Congratulations, here&amp;rsquo;s a virtual cookie for you.
-You know me personally&amp;hellip; hello!</description>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to my first attempt at writing a page with &lt;em&gt;hugo&lt;/em&gt;!&lt;br&gt;&#xA;I found a nice tutorial and I also wanted a personal web space so&amp;hellip; here we are.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-will-i-post-here&#34;&gt;What will I post here?&lt;/h2&gt;&#xA;&lt;p&gt;Most likely CTFs writeups or portfolio. But, anything goes!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
