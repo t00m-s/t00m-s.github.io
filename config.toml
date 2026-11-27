@@ -1,0 +1,106 @@
+# Site configuration for Zola + tabi.
+# For every available tabi option (with explanations), see the theme's theme.toml
+# or the documentation: https://welpo.github.io/tabi/blog/mastering-tabi-settings/
+
+base_url = "https://t00m-s.github.io"
+title = "Tommaso Soncin"
+description = "Personal blog of Tommaso Soncin: CTF writeups, security notes and whatever else comes to mind."
+author = "Tommaso Soncin"
+
+# Atom feed, served at /atom.xml.
+generate_feeds = true
+
+compile_sass = true
+minify_html = true
+
+# Client-side search (see the magnifying glass icon in the menu).
+build_search_index = true
+
+default_language = "en"
+
+# The theme, installed as a git submodule in themes/tabi (pinned at v5.0.0).
+theme = "tabi"
+
+# Ready for future posts: add `tags = ["..."]` under `[taxonomies]` in a
+# post's front matter to use them.
+taxonomies = [{ name = "tags", feed = true }]
+
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+index_format = "elasticlunr_json"
+
+[markdown]
+bottom_footnotes = true
+smart_punctuation = true
+# Render GitHub-style alerts (`> [!NOTE]`, `> [!WARNING]`, …).
+github_alerts = true
+
+[markdown.highlighting]
+# Light/dark code highlighting themes, matched to the site theme switcher.
+light_theme = "catppuccin-latte"
+dark_theme = "catppuccin-mocha"
+style = "class"
+error_on_missing_language = true
+
+[link_checker]
+# Don't fail builds over broken internal anchors.
+internal_level = "warn"
+
+# Keep page URLs identical to the file names (e.g. posts/first_post.md ->
+# /posts/first_post/), preserving the URLs of the existing posts.
+# Note: with this strategy, avoid spaces/uppercase in .md file names.
+[slugify]
+paths = "safe"
+
+[extra]
+# --- Appearance -----------------------------------------------------------
+# Pink (sakura) skin, dark by default, with a light/dark switcher.
+theme_switcher = true
+default_theme = "dark"
+skin = "sakura"
+# Browser UI colour (light, dark), matching the sakura skin's primary colour.
+browser_theme_color = ["#D33C5C", "#fabed2"]
+# Emoji favicon.
+favicon_emoji = "🌸"
+
+# --- Repository integration -------------------------------------------------
+# Enables the "site source" link in the footer and commit history links
+# on posts that have an `updated` date.
+remote_repository_url = "https://github.com/t00m-s/t00m-s.github.io"
+remote_repository_git_platform = "auto"
+remote_repository_branch = "main"
+show_remote_changes = true
+show_remote_source = true
+
+# --- Navigation --------------------------------------------------------------
+menu = [
+    { name = "blog", url = "posts", trailing_slash = true },
+    { name = "archive", url = "archive", trailing_slash = true },
+    { name = "about", url = "about", trailing_slash = true },
+    { name = "cv", url = "cv", trailing_slash = true },
+]
+
+# Show the RSS/Atom icon in the footer.
+feed_icon = true
+
+# Footer social links. Built-in icons:
+# https://github.com/welpo/tabi/tree/main/static/social_icons
+socials = [
+    { name = "github", url = "https://github.com/t00m-s", icon = "github" },
+]
+
+# Footer copyright notice ($TITLE, $CURRENT_YEAR, $AUTHOR, $SEPARATOR are replaced).
+copyright = "© $CURRENT_YEAR $AUTHOR"
+
+# Use the theme's built-in English font subset (prevents text flashing in Firefox).
+custom_subset = false
+
+# --- Indieweb -----------------------------------------------------------------
+# Author metadata (h-card) on the homepage.
+[extra.hcard]
+enable = true
+with_social_links = true
+
